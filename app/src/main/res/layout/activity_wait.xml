@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wait_back">
+
+
+    <Button
+        android:id="@+id/wait_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="退出" />
+    <!--android:layout_marginTop="@dimen/dp_174"-->
+
+
+    <!--android:layout_width="@dimen/dp_400"
+    android:layout_height="@dimen/dp_350"-->
+
+    <ImageView
+        android:id="@+id/wait_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_210"
+        android:scaleType="fitXY"
+        android:src="@drawable/wait" />
+    <!--<com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/wait_img"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        app:actualImageScaleType="focusCrop" />-->
+
+    <RelativeLayout
+        android:id="@+id/wait_websocket_status"
+        android:layout_width="@dimen/dp_10"
+        android:layout_height="@dimen/dp_10" />
+</RelativeLayout>
